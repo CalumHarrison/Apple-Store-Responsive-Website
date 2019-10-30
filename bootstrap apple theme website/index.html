@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- good for mobile design and breakpoints-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap Link!-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--Breakpoint CSS!-->
+    <link rel="stylesheet" href="css/collapse.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/desktop.css">
+                  <!--Font family!-->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <!--All images are used from https://unsplash.com free for commercial use!-->
+
+  <title>Pear:Bootstrap</title>
+</head>
+<body>
+
+  <!--Navigation Bar !-->
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Project name</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">iPear</a></li>
+               <li><a href="#">Webbook</a></li>
+                <li><a href="#">Phone</a></li>
+               </ul>
+<ul class="nav navbar-nav navbar-right">
+               <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+<li><a href="#"><span class="glyphicon glyphicon-lock"></span> </a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div><!--/.container-fluid -->
+</nav>
+
+
+  <!--Carousel!-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/white_carousel.jpg" class="img-responsive" alt="image">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/church_carousel.jpg" class="img-responsive" alt="image">
+
+    </div>
+
+  </div>
+</div>
+
+  <!-- Controls -->
+
+  <!--Product section!-->
+<div class="container-fluid">
+<div class="row">
+<section class="col-md-3  col-sm-6 col-xs-12">
+<div class="hovereffect">
+            <img src="images/image_3.jpg" class="img-responsive centre-block" alt="image">
+</div>
+
+</section>
+<section class="col-md-3   col-sm-6 col-xs-12">
+        <div class="hovereffect">
+            <img src="images/promo_1.jpg" class="img-responsive centre-block" alt="image">
+
+</div>
+</section>
+
+    <section class="col-md-3  col-sm-6 col-xs-12">
+              <div class="hovereffect">
+      <img src="images/image_2.jpg" class="img-responsive centre-block" alt="image">
+    </div>
+
+  </section>
+  <section class="col-md-3   col-sm-6 col-xs-12">
+    <div class="hovereffect">
+    <img src="images/promo_2.jpg" class="img-responsive centre-block" alt="image">
+
+    </div>
+
+</section>
+</div>
+</div>
+
+  <!--Footer!-->
+<footer id="globalfooter">
+<div class="container-fluid">
+<div class="row">
+    <section class="col-md-2 col-sm-2 col-xs-12">
+    <h3 data-toggle="collapse" data-target="#store" class="footer_header">Apple Store <span class="caret"></span></h3>
+     <div id="store" class="collapse">
+              <ul class="nav nav-pills nav-stacked">
+                  <li class="footerfont">Find a Store</li>
+                  <li class="footerfont">Genuis Bar</li>
+                  <li class="footerfont">Workshops and Learning</li>
+                  <li class="footerfont">Youth Programmes</li>
+                  <li class="footerfont">Apple Store App</li>
+                  <li class="footerfont">Refurbished and Clearence</li>
+                  <li class="footerfont">Finacing</li>
+                  <li class="footerfont">Reuse and Recycling</li>
+</ul>
+</div>
+</section>
+      <section class="col-md-2 col-sm-2 col-xs-12">
+      <h3 data-toggle="collapse" data-target="#address" class="footer_header">Address <span class="caret"></span></h3>
+      <div id="address" class="collapse">
+      <ul class="nav nav-pills nav-stacked">
+      <li class="footerfont">Find a Store</li>
+                  <li class="footerfont">Genuis Bar</li>
+                  <li class="footerfont">Workshops and Learning</li>
+                  <li class="footerfont">Youth Programmes</li>
+                  <li class="footerfont">Apple Store App</li>
+                  <li class="footerfont">Refurbished and Clearence</li>
+                  <li class="footerfont">Finacing</li>
+                  <li class="footerfont">Reuse and Recycling</li>
+</ul>
+</div>
+</section>
+          <section class="col-md-2 col-sm-2 col-xs-12">
+          <h3 data-toggle="collapse" data-target="#account" class="footer_header">Account <span class="caret"></span></h3>
+          <div id="account" class="collapse">
+              <ul class="nav nav-pills nav-stacked">
+                  <li class="footerfont">Find a Store</li>
+                  <li class="footerfont">Genuis Bar</li>
+                  <li class="footerfont">Workshops and Learning</li>
+                  <li class="footerfont">Youth Programmes</li>
+                  <li class="footerfont">Apple Store App</li>
+                  <li class="footerfont">Refurbished and Clearence</li>
+                  <li class="footerfont">Finacing</li>
+                  <li class="footerfont">Reuse and Recycling</li>
+</ul>
+</div>
+</section>
+
+      <section class="col-md-2 col-sm-2 col-xs-12">
+      <h3 data-toggle="collapse" data-target="#refunds" class="footer_header">Refunds <span class="caret"></span></h3>
+      <div id="refunds" class="collapse">
+              <ul class="nav nav-pills nav-stacked">
+                  <li class="footerfont">Find a Store</li>
+                  <li class="footerfont">Genuis Bar</li>
+                  <li class="footerfont">Workshops and Learning</li>
+                  <li class="footerfont">Youth Programmes</li>
+                  <li class="footerfont">Apple Store App</li>
+                  <li class="footerfont">Refurbished and Clearence</li>
+                  <li class="footerfont">Finacing</li>
+                  <li class="footerfont">Reuse and Recycling</li>
+</ul>
+</div>
+</section>
+
+    <section class="col-md-2 col-sm-2 col-xs-12">
+      <h3 data-toggle="collapse" data-target="#online" class="footer_header">Online <span class="caret"></span></h3>
+ <div id="online" class="collapse">
+            <ul class="nav nav-pills nav-stacked">
+        <li class="footerfont">Apple Education</li>
+          <li class="footerfont">Shop for University</li>
+            <li class="footerfont">Apple and Bussiness</li>
+            <li class="footerfont">shop For Bussiness</li>
+              <li class="footerfont">Apple Store App</li>
+                <li class="footerfont">Refurbished and Clearence</li>
+                <li class="footerfont">Finacing</li>
+                <li class="footerfont">Reuse and Recycling</li>
+
+
+</ul>
+</div>
+</section>
+
+        <section class="col-md-2 col-sm-2 col-xs-12">
+        <h3 data-toggle="collapse" data-target="#hero" class="footer_header">Hero <span class="caret"></span></h3>
+        <div id="online" class="collapse">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="footerfont">Apple Education</li>
+                <li class="footerfont">Shop for University</li>
+                <li class="footerfont">Apple and Bussiness</li>
+                <li class="footerfont">shop For Bussiness</li>
+                <li class="footerfont">Apple Store App</li>
+                <li class="footerfont">Refurbished and Clearence</li>
+                <li class="footerfont">Finacing</li>
+                <li class="footerfont">Reuse and Recycling</li>
+</ul>
+</div>
+
+</section>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<section class=" col-md-offset-2  col-md-8">
+        <div class="footer_information">
+            <p class="footer_text">More ways to shop at Pear visit the <a>Pear Store</a> call 800 048 000 or <a>Find a retailer</a></p>
+
+            <p class="footer_copyright"> Copyright 2016 Fastortoise inc.All rights reserved.
+            <a class="copyright_links">Privacy Policy</a>  |  <a class="copyright_links">Use Of Cookies</a>
+            <a class="copyright_links">Terms Of Use</a>  |  <a class="copyright_links">Sales and Refunds</a>
+</div>
+</section>
+</div>
+</div>
+</footer>
+<!-- script tags-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
